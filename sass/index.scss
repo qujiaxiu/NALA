@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend,figure,img { margin:0; padding:0; }
+a,u{text-decoration:none;}
+b,strong{font-weight:100;}
+i,em{font-style:normal;}
+ul,li,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-style:16px;font-weight:100;}
+img{display:block;border:0;}
+.clearfix{zoom:1;}
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+
+.head-one,.head-two{width:1181px;margin:0 auto;}
+#head{
+    width:100%;
+    height:31px;
+    background:#f0f0f0;
+    border-bottom:1px solid #ddd;
+    .head-one{
+        height:31px;
+        h2{
+            font-size:14px;
+            font-weight:400;
+            line-height:31px;
+            float:left;
+        }
+        h3{
+            float:left;
+            line-height:31px;
+            .register{
+                font-size:14px;
+                color:#BB1D2B;
+                line-height:14px;
+                margin-left:3px;
+            }
+            i{
+                font-size:14px;
+                margin:0 6px;
+                color:#d4d4d4;
+            }
+            .login{
+                font-size:14px;
+                color:#9e9e9e;
+                line-height:14px;
+                margin-right:3px;
+            }
+        }
+        .head-top-R{
+            float:right;
+            li{
+                float:left;
+                line-height:31px;
+                margin-left:12px;
+                a{
+                    color:#9e9e9e;
+                    font-size:14px;
+                }
+            }
+            .lilast{
+                margin-left:18px;
+                position:relative;
+                a{
+                    color:#9e9e9e;
+                    font-size:14px;
+                    i{
+                        color:#bb1d2b;
+                    }
+                    span{
+                        color:#bb1d2b;
+                    }
+                }
+                .top-app{
+                    width:206px;
+                    height:86px;
+                    padding:5px;
+                    overflow:hidden;
+                    background:url("//s.nala.com.cn/images/nala/header-app.png") 5px 5px no-repeat #fff;
+                    position:absolute;
+                    z-index:1;
+                }
+            }
+        }
+    }
+    .head-two{
+        width:100%;
+        height:82px;
+        background:#f5f5f5;
+        padding:18px 0 0 108px;
+        #logo{
+            width:181px;
+            height:66px;
+            background:url("//s.nala.com.cn/b2b/images/nalalogo.png") no-repeat;
+            float:left;
+        }
+        #search{
+            width:510px;
+            height:36px;
+            border:1px solid #BB1D2B;
+            float:left;
+            margin-left:144px;
+            #osearch{
+                width:369px;
+                height:22px;
+                border:none;
+                margin-top:7px;
+                margin-left:5px;
+                float:left;
+            }
+            #searchs{
+                border:none;
+                width:131px;
+                height:36px;
+                background:#BB1D2B;
+                float:right;
+                position:relative;
+                #search-img{
+                    color:white;
+                    font-size:20px;
+                    margin:7px 0 0 30px;
+                    position:absolute;
+                }
+                span{
+                    font-size:16px;
+                    color:white;
+                    line-height:16px;
+                    line-height:36px;
+                    margin-left:55px;
+                }
+            }
+            ul{
+                li{
+                    float:left;
+                    font-size:14px;
+                    color:#999;
+                    margin-top:16px;
+                    margin-right:10px;
+                    a{
+                        color:#666;
+                    }
+                }
+            }
+        }
+        #cart{
+            width:120px;
+            height:33px;
+            border:1px solid #BB1D2B;
+            float:right;
+            margin-right:200px;
+            background:white;
+            position:relative;
+            #cart-img{
+                position:absolute;
+                color:#BB1D2B;
+                margin:9px 0 0 20px;
+            }
+            span{
+                position:absolute;
+                font-size:14px;
+                line-height:14px;
+                color:#BB1D2B;
+                margin:10px 0 0 44px;
+            }
+            h4{
+                position:absolute;
+                font-size:16px;
+                color:#BB1D2B;
+                margin:4px 0 0 93px;
+                font-weight:500;
+            }
+        }
+    }
+    .head-three{
+        width:100%;
+        height:42px;
+        border-bottom:1px solid #BB1D2B;
+        ul{
+            margin-left:96px;
+            li{
+                float:left;
+                line-height:42px;
+                margin-top:1px;
+                a{
+                    font-size:16px;
+                    font-weight:bold;
+                    padding:11px 42px;
+                    color:#333;
+                }
+                #classify{
+                    background:#BB1D2B;
+                    margin-right:2px;
+                    color:white;
+                }
+            }
+        }
+    }
+}
