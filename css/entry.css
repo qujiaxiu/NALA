@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, figure, img {
+  margin: 0;
+  padding: 0; }
+
+a, u {
+  text-decoration: none; }
+
+b, strong {
+  font-weight: 100; }
+
+i, em {
+  font-style: normal; }
+
+ul, li, ol {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: 16px;
+  font-weight: 100; }
+
+img {
+  display: block;
+  border: 0; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.head-one, .head-two {
+  width: 1181px;
+  margin: 0 auto; }
+
+#head {
+  width: 100%;
+  height: 31px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 100px; }
+  #head .head-one {
+    height: 31px; }
+    #head .head-one h2 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 31px;
+      float: left; }
+    #head .head-one h3 {
+      float: left;
+      line-height: 31px; }
+      #head .head-one h3 .register {
+        font-size: 12px;
+        color: #BB1D2B;
+        margin-left: 3px;
+        font-weight: bold; }
+      #head .head-one h3 i {
+        font-size: 12px;
+        margin: 0 6px;
+        color: #d4d4d4; }
+      #head .head-one h3 .login {
+        font-size: 12px;
+        color: #9e9e9e;
+        margin-right: 3px;
+        font-weight: bold; }
+    #head .head-one .head-top-R {
+      float: right; }
+      #head .head-one .head-top-R li {
+        float: left;
+        line-height: 31px;
+        margin-left: 12px; }
+        #head .head-one .head-top-R li a {
+          color: #9e9e9e;
+          font-size: 12px; }
+      #head .head-one .head-top-R .lilast {
+        margin-left: 18px;
+        position: relative; }
+        #head .head-one .head-top-R .lilast a {
+          color: #9e9e9e;
+          font-size: 14px; }
+          #head .head-one .head-top-R .lilast a i {
+            color: #bb1d2b; }
+          #head .head-one .head-top-R .lilast a span {
+            color: #bb1d2b; }
+        #head .head-one .head-top-R .lilast .top-app {
+          width: 206px;
+          height: 86px;
+          padding: 5px;
+          overflow: hidden;
+          background: url("//s.nala.com.cn/images/nala/header-app.png") 5px 5px no-repeat #fff;
+          position: absolute;
+          z-index: 1;
+          display: none; }
+  #head .head-two {
+    width: 100%;
+    height: 82px;
+    padding: 18px 0 0 108px; }
+    #head .head-two #logo {
+      width: 181px;
+      height: 66px;
+      background: url("//s.nala.com.cn/b2b/images/nalalogo.png") no-repeat;
+      float: left; }
+    #head .head-two h2 {
+      float: left;
+      font-size: 24px;
+      font-weight: bold;
+      color: #666;
+      margin: 36px 0 0 15px; }
+    #head .head-two #search {
+      width: 510px;
+      height: 36px;
+      border: 1px solid #BB1D2B;
+      float: left;
+      margin-left: 144px;
+      background: white; }
+      #head .head-two #search #osearch {
+        width: 369px;
+        height: 22px;
+        border: none;
+        margin-top: 7px;
+        margin-left: 5px;
+        float: left;
+        outline: none; }
+      #head .head-two #search #searchs {
+        border: none;
+        width: 131px;
+        height: 36px;
+        background: #BB1D2B;
+        float: right;
+        position: relative; }
+        #head .head-two #search #searchs #search-img {
+          color: white;
+          font-size: 20px;
+          margin: 7px 0 0 30px;
+          position: absolute; }
+        #head .head-two #search #searchs span {
+          font-size: 16px;
+          color: white;
+          line-height: 16px;
+          line-height: 36px;
+          margin-left: 55px; }
+      #head .head-two #search ul li {
+        float: left;
+        font-size: 14px;
+        color: #999;
+        margin-top: 16px;
+        margin-right: 10px; }
+        #head .head-two #search ul li a {
+          color: #666; }
+        #head .head-two #search ul li :hover {
+          color: #BB1D2B; }
+    #head .head-two #cart {
+      width: 120px;
+      height: 33px;
+      border: 1px solid #BB1D2B;
+      float: right;
+      margin-right: 191px;
+      background: white;
+      position: relative; }
+      #head .head-two #cart #cart-img {
+        position: absolute;
+        color: #BB1D2B;
+        margin: 9px 0 0 20px; }
+      #head .head-two #cart span {
+        position: absolute;
+        font-size: 14px;
+        line-height: 14px;
+        color: #BB1D2B;
+        margin: 10px 0 0 44px; }
+      #head .head-two #cart h4 {
+        position: absolute;
+        font-size: 16px;
+        color: #BB1D2B;
+        margin: 4px 0 0 93px;
+        font-weight: 500; }
+
+#main {
+  width: 100%;
+  min-height: 680px;
+  _height: 680px;
+  background: #F5F5F5;
+  border-top: 1px solid red; }
+  #main .main-L {
+    margin: 58px 20px 0 220px;
+    float: left; }
+  #main .main-R {
+    width: 382px;
+    height: 452px;
+    float: left;
+    margin-top: 87px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 15px rgba(204, 204, 204, 0.5); }
+    #main .main-R .top {
+      width: 320px;
+      height: 27px;
+      margin: 16px auto 0; }
+      #main .main-R .top h3 {
+        font-size: 18px;
+        line-height: 27px;
+        color: #333;
+        float: left; }
+      #main .main-R .top p {
+        font-size: 12px;
+        color: #333;
+        float: right;
+        line-height: 27px; }
+        #main .main-R .top p a {
+          display: inline-block;
+          color: #333;
+          text-decoration: underline; }
+    #main .main-R .two {
+      width: 320px;
+      height: 206px;
+      margin: 10px auto 0; }
+      #main .main-R .two .name, #main .main-R .two .secret {
+        width: 318px;
+        height: 38px;
+        border: 1px solid #ccc; }
+        #main .main-R .two .name .pic, #main .main-R .two .secret .pic {
+          width: 35px;
+          height: 28px;
+          text-align: center;
+          margin-top: 5px;
+          border-right: 1px solid #aaa;
+          float: left; }
+          #main .main-R .two .name .pic i, #main .main-R .two .secret .pic i {
+            font-size: 20px;
+            line-height: 28px;
+            color: #aaa; }
+        #main .main-R .two .name #sname, #main .main-R .two .name #spwd, #main .main-R .two .secret #sname, #main .main-R .two .secret #spwd {
+          float: left;
+          width: 236px;
+          height: 20px;
+          margin: 9px 0 0 3px;
+          outline: none;
+          border: none;
+          background: none; }
+      #main .main-R .two .secret {
+        margin-top: 20px; }
+        #main .main-R .two .secret i {
+          font-weight: bold; }
+      #main .main-R .two .a {
+        float: right;
+        font-size: 12px;
+        text-decoration: underline;
+        margin-top: 20px;
+        color: #333; }
+      #main .main-R .two .login {
+        width: 320px;
+        height: 50px;
+        background: #df3442; }
+        #main .main-R .two .login a {
+          display: block;
+          width: 320px;
+          height: 50px;
+          background: #df3442;
+          margin-top: 50px;
+          text-align: center;
+          line-height: 50px;
+          color: white;
+          font-size: 18px; }

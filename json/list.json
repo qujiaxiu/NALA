@@ -1,0 +1,62 @@
+[
+	{
+		"name" : "面膜",
+		"product-one" : "面膜贴",
+		"product-two" : "涂抹式面膜"
+		
+	},
+	{
+		"name" : "洁面",
+		"product-one" : "洁颜霜",
+		"product-two" : "洁面乳",
+		"product-three" : "洁面皂",
+		"product-four" : "洁面啫喱/胶",
+		"product-five" : "洁面摩丝",
+		"product-six" : "洁面粉",
+		"product-seven" : "面部去角质/磨砂"
+	},
+	{
+		"name" : "化妆水",
+		"product-one" : "化妆水",
+		"product-two" : "喷雾"
+	},
+	{
+		"name" : "精华",
+		"product-one" : "面部精华"
+	},
+	{
+		"name" : "眼部护理",
+		"product-one" : "眼霜",
+		"product-two" : "眼膜"
+	},
+	{
+		"name" : "乳液/面霜",
+		"product-one" : "乳液",
+		"product-two" : "面霜",
+		"product-three" : "按摩霜"
+	},
+	{
+		"name" : "唇部护理",
+		"product-one" : "润唇膏",
+		"product-two" : "唇膜",
+		"product-three" : "唇部精华",
+		"product-four" : "唇部去角质"
+	},
+	{
+		"name" : "防晒",
+		"product-one" : "防晒霜",
+		"product-two" : "防晒喷雾",
+		"product-three" : "晒后修复"
+	},
+	{
+		"name" : "精油芳疗",
+		"product-one" : "单方精油",
+		"product-two" : "复方精油",
+		"product-three" : "基础精油",
+		"product-four" : "纯露/花水"
+	},
+	{
+		"name" : "护肤套装",
+		"product-one" : "套装"
+	}
+]
